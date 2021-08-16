@@ -241,7 +241,7 @@ body{
     margin-top: 5px;
 }
 
-.follow-wrap, .share-wrap{
+.more-wrap, .jobs-wrap{
     flex: 4;
     display: flex;
     justify-content: center;
@@ -249,11 +249,11 @@ body{
     transition: .5s;
 }
 
-.follow-wrap:hover, .share-wrap:hover{
+.more-wrap:hover, .jobs-wrap:hover{
     flex: 5;
 }
 
-.follow{
+.more{
     padding: 9.6px 0;
     width: 100%;
     background: linear-gradient(to right, #4facfe 0%, #00f2fe 140%);
@@ -267,7 +267,7 @@ body{
     margin-right: 3px;
 }
 
-.share{
+.jobs{
     padding: 7.6px 0;
     width: 100%;
     border: 2px solid #4facfe;
@@ -424,13 +424,13 @@ body{
         font-size: 1.1rem;
     }
 
-    .follow{
+    .more{
         padding: 7.6px 0;
         border-radius: 14.6px;
         font-size: .6rem;
     }
 
-    .share{
+    .jobs{
         padding: 5.6px 0;
         border-radius: 14.6px;
         font-size: .6rem;
