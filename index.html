@@ -1,86 +1,98 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="">
-    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
-    <script src="app.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Cartão de Perfil</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+  <title>Cartão de Perfil</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<main>
+  <div class="big-wrapper light">
     <div class="modal">
-        <img src="img/daniel.jpg" alt="">
-        <div class="close"></div>
+      <img src="img/daniel.jpg" alt="">
+      <div class="close"></div>
     </div>
 
-    <div class="container">
-        <div class="card">
+      <div class="container">
+          <div class="card">
             <div class="header">
-                <div class="hamburger-menu">
-                    <div class="center"></div>
+              <div class="hamburger-menu">
+                <div class="center"></div>
+              </div>
+              <a href="nieltvrs@gmail.com" class="mail">
+              <i class="far fa-envelope"></i>
+              </a>
+              <div class="main">
+                <div class="image">
+                  <div class="hover">
+                    <i class="fas fa-camera"></i>
+                  </div>
                 </div>
-                <a href="nieltvrs@gmail.com" class="mail">
-                    <i class="far fa-envelope"></i>
-                </a>
-                <div class="main">
-                    <div class="image">
-                        <div class="hover">
-                            <i class="fas fa-camera"></i>
-                        </div>
-                    </div>
-                    <h3 class="name">Daniel Pereira Tavares</h3>
-                    <h3 class="sub-name">@nieltvrs</h3>
-                </div>
+              <h3 class="name">Daniel Pereira Tavares</h3>
+              <h3 class="sub-name">@nieltvrs</h3>
+              </div>
             </div>
-            <div class="content">
-                <div class="left">
-                    <div class="abount-container">
-                        <h3 class="title">Sobre mim</h3>
-                        <p class="text">Iniciando na programação com desenvolvimento de jogos, 
-                            criei profundo interesse em conhecer mais sobre essa
-                            área. Hoje, atuo também com front-end e back-end</p>
-                    </div>
-                    <div class="icons-contaienr">
-                        <a href="https://www.instagram.com/niel.tvrs/" class="icon">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="https://github.com/iaZe" class="icon">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/nieltvrs/" class="icon">
-                            <i class="fab fa-linkedin"></i>
-                        </a>
-                    </div>
-                    <div class="buttons-wrap">
-                        <div class="more-wrap">
-                            <a href="" class="more">Mais sobre</a>
-                        </div>
-                        <div class="jobs-wrap">
-                            <a href="more.html" class="jobs">Trabalhos</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="right">
-                    <div>
-                        <h3 class="number">4</h3>
-                        <h3 class="number-title">Posts</h3>
-                    </div>
-                    <div>
-                        <h3 class="number">923</h3>
-                        <h3 class="number-title">Seguidores</h3>
-                    </div>
-                    <div>
-                        <h3 class="number">469</h3>
-                        <h3 class="number-title">Seguindo</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
 
+        <div class="content">
+          <div class="left">
+            <div class="abount-container">
+              <h3 class="title">Sobre mim</h3>
+              <p class="text">Iniciando na programação com desenvolvimento de jogos, 
+              criei profundo interesse em conhecer mais sobre essa
+              área. Hoje, atuo também com front-end e back-end</p>
+            </div>
+            <div class="icons-contaienr">
+              <a href="https://www.instagram.com/niel.tvrs/" class="icon">
+              <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://github.com/iaZe" class="icon">
+              <i class="fab fa-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/nieltvrs/" class="icon">
+              <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+            <div class="buttons-wrap">
+              <div class="more-wrap">
+                <a href="#" class="more">Mais sobre</a>
+              </div>
+              <div class="jobs-wrap">
+                <a href="more.html" class="jobs">Trabalhos</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="right">
+              <div>
+                <h3 class="number">4</h3>
+                <h3 class="number-title">Posts</h3>
+              </div>
+            <div>
+              <h3 class="number">923</h3>
+              <h3 class="number-title">Seguidores</h3>
+            </div>
+            <div>
+              <h3 class="number">469</h3>
+              <h3 class="number-title">Seguindo</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <div class="bottom-area">
+          <div class="container">
+            <button class="toggle-btn">
+              <i class="far fa-moon"></i>
+              <i class="far fa-sun"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+  </div>
+</main>
+
+<script src="./app.js"></script>
+</body>
 </html>
